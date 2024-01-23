@@ -18,6 +18,22 @@ class StudentsAdmin(admin.ModelAdmin):
             'fields': ['photo'], 
             'classes': ['wide'],
         }),
+                ('GENERAL', {
+            'fields': ['Enquirysource'], 
+            'classes': ['wide'],
+        }),
+            
+                ('PhoneVerifications', {
+            'fields': ['phone'], 
+            'classes': ['wide'],
+            
+        }),
+                            
+                ('COURSE_INFO', {
+            'fields': ['COURSE'], 
+            'classes': ['wide'],
+            
+        }),
     ]
 
 
